@@ -1,0 +1,42 @@
+span{
+    position: absolute;
+    right: -1%;
+    top: 5%;
+    border: 3px solid transparent;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(35, 179, 223);
+    font-size: 20px;
+    line-height:normal;
+    width: 200px;
+}
+p{
+    background-color: rgb(183, 193, 197);
+    border: 1px solid black;
+    text-align: center;
+    font: 28px Arial Helvetica sans-serif;
+    height: 90px;
+    line-height: 90px;
+    position: relative;
+}
+
+ul{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+li{
+    list-style-type:none;
+    text-align: center;
+    background-color: rgb(226, 220, 226);
+    border: 1px dashed black;
+    height: 100%;
+    transition: all 0.3s ease;
+    margin: 15px;
+    font: 22px Arial Helvetica sans-serif;
+}   
+
+li:hover{
+    background-color: blue;
+    border-style: solid;
+}

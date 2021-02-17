@@ -1,0 +1,38 @@
+ul{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 15px;
+    font: 30px Arial, Helvetica, sans-serif; 
+}
+li{
+    list-style-type:none;
+    margin-top: 25px;
+    text-align: center;
+    background-color: rgb(226, 220, 226);
+    border: 1px dashed black;
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+    transition: border 0.5s ease;
+}
+
+span{
+    display:none;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    border: 1px solid black;
+    width: 100%;
+    line-height: 100%;
+   
+}
+ 
+li:hover{
+    border: 2px solid black;
+     span {
+         display: inline;
+         z-index: 1;
+         background-color: blanchedalmond;
+     }
+ }
